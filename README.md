@@ -65,23 +65,18 @@ Once RYU is installed, you'll be ready to run Magga.
 
 Follow these steps to run Magga:
 
-1. Open a terminal inside the `MAGGA` folder and install the necessary Python version:
-   ```bash
-   sudo add-apt-repository ppa:deadsnakes/ppa
-   sudo apt-get install virtualenv python3.9 python3.9-distutils
-   ```
 
-2. Activate the RYU virtual environment:
+1. Activate the RYU virtual environment:
    ```bash
    source ryu-python3.9-venv/bin/activate
    ```
 
-3. Start the RYU controller with Magga:
+2. Go to the MAGGA folder and start the RYU controller with Magga:
    ```bash
    ryu-manager --observe-links magga.py
    ```
 
-4. In a new terminal, navigate to the `MAGGA` folder and start the network topology:
+3. In a new terminal, navigate to the `MAGGA` folder and start the network topology:
    ```bash
    sudo python ./abacaxi.py
    ```
