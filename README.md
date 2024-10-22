@@ -84,6 +84,3 @@ Follow these steps to run Magga:
 ### Done!
 
 Magga is now up and running! You can begin simulating network traffic and monitor how Magga optimizes your network performance.
-```
-
-This `README.md` file provides all the necessary instructions for installing dependencies, setting up the environment, and running **Magga**.
