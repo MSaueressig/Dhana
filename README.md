@@ -1,14 +1,14 @@
 
-# Magga
+# Dhana
 
-Magga is a dynamic traffic management tool that leverages Software Defined Networking (SDN) to mitigate network congestion in data centers. By rerouting elephant flows and managing paths, it helps optimize network performance and efficiency.
+Dhana is a dynamic traffic management tool that leverages Software Defined Networking (SDN) to mitigate network congestion in data centers. By rerouting elephant flows and managing paths, it helps optimize network performance and efficiency.
 
 ## Prerequisites
 
-Before running Magga, ensure that you have the following installed:
+Before running Dhana, ensure that you have the following installed:
 
 - **Mininet**: Required for running the network simulations.
-- **RYU**: A component-based SDN controller that is essential for running Magga.
+- **RYU**: A component-based SDN controller that is essential for running Dhana.
 
 ## Installing Mininet
 
@@ -59,11 +59,11 @@ For recent Ubuntu versions, follow these steps to install RYU:
    ryu-manager --help
    ```
 
-Once RYU is installed, you'll be ready to run Magga.
+Once RYU is installed, you'll be ready to run Dhana.
 
-## Running Magga
+## Running Dhana
 
-Follow these steps to run Magga:
+Follow these steps to run Dhana:
 
 
 1. Activate the RYU virtual environment:
@@ -71,16 +71,16 @@ Follow these steps to run Magga:
    source ryu-python3.9-venv/bin/activate
    ```
 
-2. Go to the MAGGA folder and start the RYU controller with Magga:
+2. Go to the Dhana folder and start the RYU controller with Dhana:
    ```bash
-   ryu-manager --observe-links magga.py
+   ryu-manager --observe-links Dhana.py
    ```
 
-3. In a new terminal, navigate to the `MAGGA` folder and start the network topology:
+3. In a new terminal, navigate to the `Dhana` folder and start the network topology:
    ```bash
    sudo python ./abacaxi.py
    ```
 
 ### Done!
 
-Magga is now up and running! You can begin simulating network traffic and monitor how Magga optimizes your network performance.
+Dhana is now up and running! You can begin simulating network traffic and monitor how Dhana optimizes your network performance.
